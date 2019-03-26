@@ -410,7 +410,7 @@ const effect = async <TCache extends NormalizedCacheObject>(
             boundSaveSnapshot(store, client.cache);
         } else {
             // Restore from cache snapshot
-            client.cache.restore(cacheSnapshot as TCache);
+            // client.cache.restore(cacheSnapshot as TCache);
         }
 
         recorderCacheWrites.forEach(client.cache.write.bind(client.cache));
