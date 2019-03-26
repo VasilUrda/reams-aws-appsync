@@ -1,17 +1,17 @@
 {
-  "name": "aws-appsync",
+  "name": "reams-aws-appsync",
   "version": "1.7.2",
   "main": "lib/index.js",
   "license": "SEE LICENSE IN LICENSE",
-  "description": "AWS Mobile AppSync SDK for JavaScript",
+  "description": "REAMS AWS Mobile AppSync SDK for JavaScript",
   "author": {
-    "name": "Amazon Web Services",
+    "name": "REAMS",
     "url": "https://aws.amazon.com/"
   },
-  "homepage": "https://github.com/awslabs/aws-mobile-appsync-sdk-js.git",
+  "homepage": "https://github.com/realestateams/reams-aws-appsync.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/awslabs/aws-mobile-appsync-sdk-js.git"
+    "url": "https://github.com/realestateams/reams-aws-appsync.git"
   },
   "scripts": {
     "prepare": "tsc && cp -r src/vendor lib/vendor",
